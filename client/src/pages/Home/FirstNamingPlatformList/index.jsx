@@ -1,5 +1,5 @@
 import React from 'react';
-import firstNamingPlatformCards from './firstNamingPlatform.json';
+import firstNamingPlatformCards from './firstNamingPlatform';
 import styles from './FirstNamingPlatformList.module.sass';
 
 function FirstNamingPlatformList () {
