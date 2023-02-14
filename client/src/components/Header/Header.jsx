@@ -234,6 +234,9 @@ class Header extends React.Component {
                     <li>
                       <a href='http://www.google.com'>VISUAL NAME SEARCH</a>
                     </li>
+                    <li>
+                      <Link to='recommended-for-you'>RECOMMENDED FOR YOU</Link>
+                    </li>
                     <li className={styles.last}>
                       <a href='http://www.google.com'>SELL YOUR DOMAINS</a>
                     </li>

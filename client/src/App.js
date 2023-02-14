@@ -19,6 +19,7 @@ import CONSTANTS from './constants';
 import browserHistory from './browserHistory';
 import ChatContainer from './components/Chat/ChatComponents/ChatContainer/ChatContainer';
 import Pricing from './pages/Pricing/Pricing';
+import RecommendedForYou from './pages/RecomendedForYou/RecomendedForYou';
 
 class App extends Component {
   render () {
@@ -47,6 +48,11 @@ class App extends Component {
             exact
             path='/registration'
             component={OnlyNotAuthorizedUserHoc(RegistrationPage)}
+          />
+          <Route
+            exact
+            path='/recommended-for-you'
+            component={RecommendedForYou}
           />
           <Route exact path='/payment' component={PrivateHoc(Payment)} />
           <Route
