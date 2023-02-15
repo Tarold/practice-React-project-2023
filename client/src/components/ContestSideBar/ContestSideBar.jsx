@@ -76,6 +76,7 @@ const ContestSideBar = props => {
               <div className={styles.customerNameContainer}>
                 <span>{`${User.firstName} ${User.lastName}`}</span>
                 <span>{User.displayName}</span>
+                <span>{User.email}</span>
               </div>
             </div>
           </div>
